@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  # routes
+  # ROUTES
+  # verb 'url/path'  => 'controller#action', as: 'named_route'
   # HTTP VERBS: get, post, put, patch, delete
-
-  # verb 'url/path' => 'controller#action'
 
   # SHOW Routes
   get 'students'     => 'students#index' # Student Index (Show All Students)
