@@ -1,0 +1,21 @@
+body {
+  border: 1px solid grey;
+  color: #111;
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+  margin: 2em auto;
+  padding: 2em;
+  width: 900px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Georgia, "Bitstream Charter", serif;
+}
+
+header h1 {
+  font-style: italic;
+  margin-bottom: 1em;
+}
