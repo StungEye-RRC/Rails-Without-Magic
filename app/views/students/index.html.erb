@@ -1,3 +1,7 @@
 <h2>All Students</h2>
 
 <%= render partial: 'student', collection: @students %>
+
+<p>
+  <%= link_to 'Create New Student', new_student_path %>
+</p>
